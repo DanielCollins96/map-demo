@@ -41,8 +41,8 @@ export default function Map() {
           defaultZoom={zoom}
           >
           <AnyReactComponent
-            lat={11.0168}
-            lng={76.9558}
+            lat={location.lat}
+            lng={location.lng}
             text="My Marker"
             />
         </GoogleMapReact>
