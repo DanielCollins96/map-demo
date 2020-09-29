@@ -10,6 +10,9 @@ export default function header() {
                     <Link href="/" >
                         <a className="mr-4 text-black hover:text-white">Home</a>
                     </Link>
+                    <Link href="/about">
+                        <a className="mr-4 text-black hover:text-white">About</a>
+                    </Link>
                     <Link href="/map">
                         <a className="text-black hover:text-white">Map</a>
                     </Link>
